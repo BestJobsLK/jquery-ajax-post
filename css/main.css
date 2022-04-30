@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+.hidden { display: none; }
+
+.container {
+  width: 400px;
+  margin: 150px auto 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 5px 0px #aaa; 
+}
+
+.container h2 { margin-bottom: 10px; font-weight: normal; }
+.container img.envelope { margin-bottom: 10px; }
+.container input { display: block; font-size: 18px; padding: 10px; width: 100%; margin-bottom: 10px; border: 1px solid #aaa; border-radius: 5px; }
+
+.container button { padding: 10px 20px; font-size: 16px; background: #1a73e8; border: 0; border-radius: 5px; color: white; }
+button:hover { text-shadow: 0 0  1px #000; box-shadow: 0 0 2px #000; cursor: pointer }
+
+p.error { margin-bottom: 15px; background: red; color: white; padding: 10px; }
+
+.progress { margin: 50px 0;}
+
+.success img { margin: 30px 0;}
